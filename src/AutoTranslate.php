@@ -1,10 +1,10 @@
 <?php
 
-namespace Ben182\AutoTranslate;
+namespace OSSTools\AutoTranslate;
 
 use Illuminate\Support\Arr;
-use Themsaid\Langman\Manager as Langman;
-use Ben182\AutoTranslate\Translators\TranslatorInterface;
+use OSSTools\AutoTranslate\Translators\TranslatorInterface;
+use OSSTools\Langman\Manager as Langman;
 
 class AutoTranslate
 {
@@ -68,6 +68,7 @@ class AutoTranslate
                 if ($callbackAfterEachTranslation) {
                     $callbackAfterEachTranslation();
                 }
+
                 continue;
             }
 

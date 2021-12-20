@@ -17,9 +17,9 @@ return [
     'path' => realpath(base_path('resources/lang')),
 
     /*
-     * This is the translator used to translate the source language files. You can also specify your own here if you wish. It has to implement \Ben182\AutoTranslate\Translators\TranslatorInterface.
+     * This is the translator used to translate the source language files. You can also specify your own here if you wish. It has to implement \OSSTools\AutoTranslate\Translators\TranslatorInterface.
      */
-    'translator' => \Ben182\AutoTranslate\Translators\SimpleGoogleTranslator::class,
+    'translator' => \OSSTools\AutoTranslate\Translators\SimpleGoogleTranslator::class,
 
     'simple_google_translator' => [
 

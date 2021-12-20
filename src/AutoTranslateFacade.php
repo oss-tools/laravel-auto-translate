@@ -1,11 +1,11 @@
 <?php
 
-namespace Ben182\AutoTranslate;
+namespace OSSTools\AutoTranslate;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Ben182\AutoTranslate\Skeleton\SkeletonClass
+ * @see \OSSTools\AutoTranslate\Skeleton\SkeletonClass
  */
 class AutoTranslateFacade extends Facade
 {
