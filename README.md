@@ -10,6 +10,9 @@ With this package you can translate your language files using a translator servi
 
 Specify a source language and a target language and it will automatically translate your files. This is useful if you want to prototype something quickly or just a first idea of the translation for later editing. The package ships with two artisan commands. One for translating all the missing translations that are set in the source language but not in the target language. The other one for translating all source language files and overwriting everything in the target language.
 
+## Note
+This package is a detached fork of [ben182/laravel-auto-translate](https://github.com/ben182/laravel-auto-translate).
+
 ## Installation
 
 This package can be used in Laravel 5.6 or higher and needs PHP 7.2 or higher.
