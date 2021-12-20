@@ -2,9 +2,9 @@
 
 namespace Ben182\AutoTranslate;
 
+use Ben182\AutoTranslate\Translators\TranslatorInterface;
 use Illuminate\Support\Arr;
 use OSSTools\Langman\Manager as Langman;
-use Ben182\AutoTranslate\Translators\TranslatorInterface;
 
 class AutoTranslate
 {
@@ -68,6 +68,7 @@ class AutoTranslate
                 if ($callbackAfterEachTranslation) {
                     $callbackAfterEachTranslation();
                 }
+
                 continue;
             }
 

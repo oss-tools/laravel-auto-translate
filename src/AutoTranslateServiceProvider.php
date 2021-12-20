@@ -2,11 +2,11 @@
 
 namespace Ben182\AutoTranslate;
 
-use OSSTools\Langman\Manager;
-use Illuminate\Support\ServiceProvider;
 use Ben182\AutoTranslate\Commands\AllCommand;
 use Ben182\AutoTranslate\Commands\MissingCommand;
 use Ben182\AutoTranslate\Translators\TranslatorInterface;
+use Illuminate\Support\ServiceProvider;
+use OSSTools\Langman\Manager;
 
 class AutoTranslateServiceProvider extends ServiceProvider
 {

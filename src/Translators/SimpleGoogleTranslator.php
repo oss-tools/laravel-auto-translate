@@ -2,8 +2,8 @@
 
 namespace Ben182\AutoTranslate\Translators;
 
-use Stichoza\GoogleTranslate\GoogleTranslate;
 use Ben182\AutoTranslate\Exceptions\LanguageCodeNotExist;
+use Stichoza\GoogleTranslate\GoogleTranslate;
 
 class SimpleGoogleTranslator implements TranslatorInterface
 {

@@ -2,10 +2,10 @@
 
 namespace Ben182\AutoTranslate\Tests;
 
-use Mockery;
-use Illuminate\Support\Arr;
 use Ben182\AutoTranslate\AutoTranslateFacade;
 use Ben182\AutoTranslate\Translators\TranslatorInterface;
+use Illuminate\Support\Arr;
+use Mockery;
 
 class AutoTranslateTest extends TestCase
 {
