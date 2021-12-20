@@ -2,7 +2,7 @@
 
 namespace Ben182\AutoTranslate;
 
-use Themsaid\Langman\Manager;
+use OSSTools\Langman\Manager;
 use Illuminate\Support\ServiceProvider;
 use Ben182\AutoTranslate\Commands\AllCommand;
 use Ben182\AutoTranslate\Commands\MissingCommand;

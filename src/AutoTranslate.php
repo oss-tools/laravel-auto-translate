@@ -3,7 +3,7 @@
 namespace Ben182\AutoTranslate;
 
 use Illuminate\Support\Arr;
-use Themsaid\Langman\Manager as Langman;
+use OSSTools\Langman\Manager as Langman;
 use Ben182\AutoTranslate\Translators\TranslatorInterface;
 
 class AutoTranslate

@@ -2,7 +2,7 @@
 
 namespace Ben182\AutoTranslate\Tests;
 
-use Themsaid\Langman\LangmanServiceProvider;
+use OSSTools\Langman\LangmanServiceProvider;
 use Ben182\AutoTranslate\AutoTranslateServiceProvider;
 
 class TestCase extends \Orchestra\Testbench\TestCase
