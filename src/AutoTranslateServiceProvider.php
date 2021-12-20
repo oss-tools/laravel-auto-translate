@@ -2,10 +2,10 @@
 
 namespace OSSTools\AutoTranslate;
 
+use Illuminate\Support\ServiceProvider;
 use OSSTools\AutoTranslate\Commands\AllCommand;
 use OSSTools\AutoTranslate\Commands\MissingCommand;
 use OSSTools\AutoTranslate\Translators\TranslatorInterface;
-use Illuminate\Support\ServiceProvider;
 use OSSTools\Langman\Manager;
 
 class AutoTranslateServiceProvider extends ServiceProvider

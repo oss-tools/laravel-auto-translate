@@ -2,10 +2,10 @@
 
 namespace OSSTools\AutoTranslate\Tests;
 
-use OSSTools\AutoTranslate\AutoTranslateFacade;
-use OSSTools\AutoTranslate\Translators\TranslatorInterface;
 use Illuminate\Support\Arr;
 use Mockery;
+use OSSTools\AutoTranslate\AutoTranslateFacade;
+use OSSTools\AutoTranslate\Translators\TranslatorInterface;
 
 class AutoTranslateTest extends TestCase
 {

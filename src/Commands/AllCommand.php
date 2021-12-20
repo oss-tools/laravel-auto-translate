@@ -2,10 +2,10 @@
 
 namespace OSSTools\AutoTranslate\Commands;
 
-use OSSTools\AutoTranslate\AutoTranslate;
 use Illuminate\Console\Command;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
+use OSSTools\AutoTranslate\AutoTranslate;
 
 class AllCommand extends Command
 {

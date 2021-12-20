@@ -2,8 +2,8 @@
 
 namespace OSSTools\AutoTranslate;
 
-use OSSTools\AutoTranslate\Translators\TranslatorInterface;
 use Illuminate\Support\Arr;
+use OSSTools\AutoTranslate\Translators\TranslatorInterface;
 use OSSTools\Langman\Manager as Langman;
 
 class AutoTranslate
