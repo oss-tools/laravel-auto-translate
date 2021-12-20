@@ -1,8 +1,8 @@
 <?php
 
-namespace Ben182\AutoTranslate\Tests;
+namespace OSSTools\AutoTranslate\Tests;
 
-use Ben182\AutoTranslate\AutoTranslateServiceProvider;
+use OSSTools\AutoTranslate\AutoTranslateServiceProvider;
 use OSSTools\Langman\LangmanServiceProvider;
 
 class TestCase extends \Orchestra\Testbench\TestCase

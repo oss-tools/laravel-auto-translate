@@ -1,6 +1,6 @@
 <?php
 
-namespace Ben182\AutoTranslate\Exceptions;
+namespace OSSTools\AutoTranslate\Exceptions;
 
 use Exception;
 

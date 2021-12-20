@@ -1,8 +1,8 @@
 <?php
 
-namespace Ben182\AutoTranslate;
+namespace OSSTools\AutoTranslate;
 
-use Ben182\AutoTranslate\Translators\TranslatorInterface;
+use OSSTools\AutoTranslate\Translators\TranslatorInterface;
 use Illuminate\Support\Arr;
 use OSSTools\Langman\Manager as Langman;
 

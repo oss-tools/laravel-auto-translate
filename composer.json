@@ -1,20 +1,13 @@
 {
-    "name": "ben182/laravel-auto-translate",
+    "name": "oss-tools/laravel-auto-translate",
     "description": "Automatically translate your language files using Google Translate",
     "keywords": [
-        "ben182",
+        "oss-tools",
         "laravel-auto-translate"
     ],
-    "homepage": "https://github.com/ben182/laravel-auto-translate",
+    "homepage": "https://github.com/oss-tools/laravel-auto-translate",
     "license": "MIT",
     "type": "library",
-    "authors": [
-        {
-            "name": "Ben",
-            "email": "moin@benjaminbortels.de",
-            "role": "Developer"
-        }
-    ],
     "require": {
         "php": "^7.2|^8.0",
         "google/cloud": "^0.155.0",
@@ -30,12 +23,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Ben182\\AutoTranslate\\": "src"
+            "OSSTools\\AutoTranslate\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Ben182\\AutoTranslate\\Tests\\": "tests"
+            "OSSTools\\AutoTranslate\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -49,10 +42,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Ben182\\AutoTranslate\\AutoTranslateServiceProvider"
+                "OSSTools\\AutoTranslate\\AutoTranslateServiceProvider"
             ],
             "aliases": {
-                "AutoTranslate": "Ben182\\AutoTranslate\\AutoTranslateFacade"
+                "AutoTranslate": "OSSTools\\AutoTranslate\\AutoTranslateFacade"
             }
         }
     }

@@ -1,10 +1,10 @@
 <?php
 
-namespace Ben182\AutoTranslate;
+namespace OSSTools\AutoTranslate;
 
-use Ben182\AutoTranslate\Commands\AllCommand;
-use Ben182\AutoTranslate\Commands\MissingCommand;
-use Ben182\AutoTranslate\Translators\TranslatorInterface;
+use OSSTools\AutoTranslate\Commands\AllCommand;
+use OSSTools\AutoTranslate\Commands\MissingCommand;
+use OSSTools\AutoTranslate\Translators\TranslatorInterface;
 use Illuminate\Support\ServiceProvider;
 use OSSTools\Langman\Manager;
 
