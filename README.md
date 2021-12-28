@@ -37,11 +37,12 @@ You can specify your source language, the target language(s), the translator and
 
 ## Translators
 
-| Name                   | Free | File                                                    | Documentation                       | Available languages |
-|------------------------|------|---------------------------------------------------------|-------------------------------------|----------|
-| Google Translate HTTP  | Yes  | OSSTools\AutoTranslate\Translators\SimpleGoogleTranslator | /                                   | Over 100 |
-| Google Cloud Translate | No   | OSSTools\AutoTranslate\Translators\GoogleCloudTranslator  | [Documentation](https://cloud.google.com/translate/) | Over 100 |
-| Deepl API v2           | No   | OSSTools\AutoTranslate\Translators\DeeplTranslator        | [Documentation](https://www.deepl.com/docs-api.html) | EN, DE, FR, ES, PT, IT, NL, PL, RU |
+| Name                   | Free | File                                                        | Documentation                       | Available languages |
+|------------------------|------|-------------------------------------------------------------|-------------------------------------|----------|
+| Google Translate HTTP  | Yes  | OSSTools\AutoTranslate\Translators\SimpleGoogleTranslator   | /                                   | Over 100 |
+| Google Cloud Translate | No   | OSSTools\AutoTranslate\Translators\GoogleCloudTranslator    | [Documentation](https://cloud.google.com/translate/) | Over 100 |
+| Deepl API v2           | No   | OSSTools\AutoTranslate\Translators\DeeplTranslator          | [Documentation](https://www.deepl.com/docs-api.html) | EN, DE, FR, ES, PT, IT, NL, PL, RU |
+| LibreTranslate         | Yes  | OSSTools\AutoTranslate\Translators\LibreTranslateTranslator | [Documentation](https://github.com/LibreTranslate/LibreTranslate) | AR, EN, ZH, NL, FI, FR, DE, HI, HU, ID, GA, IT, JA, KO, PL, PT, RU, ES, SV, TR, UK, VI |
 
 If you have lots of translations to make I recommend Google Cloud Translate or Deepl. They are fast, reliable and you will not encounter any rate limiting.
 

@@ -13,7 +13,7 @@
         "google/cloud": "^0.172.0",
         "illuminate/support": "^6.0 || ^7.0 || ^8.0",
         "oss-tools/laravel-langman": "^1.4",
-        "oss-tools/laravel-libretranslate": "^0.1.1",
+        "oss-tools/laravel-libretranslate": "^0.1.3",
         "scn/deepl-api-connector": "^2",
         "stichoza/google-translate-php": "^4.1.5"
     },
