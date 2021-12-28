@@ -41,4 +41,10 @@ return [
         // Your DeepL API Key. See https://www.deepl.com/pro.html#developer
         'api_key' => '',
     ],
+
+    'libretranslate' => [
+        'host' => 'https://translate.argosopentech.com',
+        'api_key' => null,
+        'default_source' => \OSSTools\LibreTranslate\Translation\LanguageCodes::ENGLISH,
+    ],
 ];
