@@ -2,9 +2,9 @@
 
 namespace OSSTools\AutoTranslate\Translators;
 
+use Exception;
 use OSSTools\AutoTranslate\Exceptions\LanguageCodeNotExist;
 use OSSTools\LibreTranslate\Client;
-use Exception;
 
 class LibreTranslateTranslator implements TranslatorInterface
 {
