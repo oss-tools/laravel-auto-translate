@@ -54,6 +54,10 @@ class MissingCommand extends Command
             $missing = $this->autoTranslator->getMissingTranslations($targetLanguage);
             $missingCount += $missing->count();
             $strLen += $missing->map(function ($value) {
+                if (! $value) {
+                    return 0;
+                }
+
                 return strlen($value);
             })->sum();
             $this->line('Found '.$missing->count().' missing keys in '.$targetLanguage);

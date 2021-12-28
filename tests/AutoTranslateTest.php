@@ -5,7 +5,9 @@ namespace OSSTools\AutoTranslate\Tests;
 use Illuminate\Support\Arr;
 use Mockery;
 use OSSTools\AutoTranslate\AutoTranslateFacade;
+use OSSTools\AutoTranslate\Translators\LibreTranslateTranslator;
 use OSSTools\AutoTranslate\Translators\TranslatorInterface;
+use OSSTools\LibreTranslate\Translation\LanguageCodes;
 
 class AutoTranslateTest extends TestCase
 {
@@ -170,5 +172,17 @@ class AutoTranslateTest extends TestCase
                 'age' => '',
             ],
         ]);
+    }
+
+    public function test_translate_with_libretranslate()
+    {
+        $translatedText = (new LibreTranslateTranslator())
+            ->setSource(LanguageCodes::ENGLISH)
+            ->setTarget(LanguageCodes::SPANISH)
+            ->translate('This is a test');
+
+        $expectedResult = 'Esta es una prueba';
+
+        $this->assertSame($translatedText, $expectedResult);
     }
 }
