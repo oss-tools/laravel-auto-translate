@@ -59,6 +59,10 @@ class AllCommand extends Command
         }
 
         $strLen = collect($dottedTranslations)->map(function ($value) {
+            if (! $value) {
+                return 0;
+            }
+
             return strlen($value);
         })->sum() * count($targetLanguages);
 
