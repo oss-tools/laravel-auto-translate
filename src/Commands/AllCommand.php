@@ -48,7 +48,6 @@ class AllCommand extends Command
         $foundLanguages = count($targetLanguages);
         $this->line('Found '.$foundLanguages.' '.Str::plural('language', $foundLanguages).' to translate');
 
-        $availableTranslations = 0;
         $sourceTranslations = $this->autoTranslator->getSourceTranslations();
         $availableTranslations = count($dottedTranslations = Arr::dot($sourceTranslations)) * count($targetLanguages);
 
