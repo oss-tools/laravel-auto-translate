@@ -9,17 +9,17 @@
     "license": "MIT",
     "type": "library",
     "require": {
-        "php": "^7.2|^8.0",
+        "php": "^8.0.2",
         "google/cloud": "^0.172.0",
-        "illuminate/support": "^6.0 || ^7.0 || ^8.0 || ^9.0",
-        "oss-tools/laravel-langman": "^1.4",
-        "oss-tools/laravel-libretranslate": "^0.1.4",
+        "illuminate/support": "^9.0 || ^10.0",
+        "oss-tools/laravel-langman": "^2.0",
+        "oss-tools/laravel-libretranslate": "^1.0.0",
         "scn/deepl-api-connector": "^2",
         "stichoza/google-translate-php": "^4.1.5"
     },
     "require-dev": {
-        "orchestra/testbench": "^6.0",
-        "phpunit/phpunit": "^9.3",
+        "orchestra/testbench": "^7.0 || ^8.0",
+        "phpunit/phpunit": "^9.5.10 || ^10.1",
         "mockery/mockery": "^1.4.0"
     },
     "autoload": {

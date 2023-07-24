@@ -4,7 +4,7 @@
 
 [![Latest Version](https://img.shields.io/github/release/oss-tools/laravel-auto-translate.svg?style=flat-square)](https://github.com/oss-tools/laravel-auto-translate/releases)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/oss-tools/laravel-auto-translate/run-tests?label=tests)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/oss-tools/laravel-auto-translate/run-tests.yml?label=tests&branch=master)
 ![Check & fix styling](https://github.com/oss-tools/laravel-auto-translate/workflows/Check%20&%20fix%20styling/badge.svg)
 [![Total Downloads](https://img.shields.io/packagist/dt/oss-tools/laravel-auto-translate.svg?style=flat-square)](https://packagist.org/packages/oss-tools/laravel-auto-translate)
 
