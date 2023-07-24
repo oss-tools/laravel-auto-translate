@@ -10,12 +10,12 @@
     "type": "library",
     "require": {
         "php": "^8.0.2",
-        "google/cloud": "^0.172.0",
+        "google/cloud": "^v0.196.0",
         "illuminate/support": "^9.0 || ^10.0",
         "oss-tools/laravel-langman": "^2.0",
         "oss-tools/laravel-libretranslate": "^1.0.0",
         "scn/deepl-api-connector": "^2",
-        "stichoza/google-translate-php": "^4.1.5"
+        "stichoza/google-translate-php": "^5.0.1"
     },
     "require-dev": {
         "orchestra/testbench": "^7.0 || ^8.0",
